@@ -1,3 +1,5 @@
+import { RobotSettingPage } from './../pages/robot-setting/robot-setting';
+import { ParallaxDirective } from './../directives/parallax/parallax';
 import { DashboardPage } from './../pages/dashboard/dashboard';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -16,7 +18,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    DashboardPage
+    DashboardPage,
+    RobotSettingPage,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,
@@ -27,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-    DashboardPage
+    DashboardPage,
+    RobotSettingPage
   ],
   providers: [
     StatusBar,

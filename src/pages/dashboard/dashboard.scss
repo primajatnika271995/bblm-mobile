@@ -1,3 +1,28 @@
-page-dashboard {
+.ios,.md {
+    page-dashboard {
+        .bg-camera {
+            background-color: gray;
+            width: 100%;
+            height: 230px;
+            background-size: cover;
+            filter: blur(4px);
+        }
+    
+        .main-ctrl {
+            width: 100%;
+            height: 400px;
+            padding:20px;
+        }
+        ion-list ion-item {
+            box-shadow: 5px;
+            background-color: silver;
+            color: black;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
 
+        p {
+            color: black;
+        }
+    }
 }
