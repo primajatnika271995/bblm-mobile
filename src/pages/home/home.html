@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Maps</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen class="bg-style">
+
+    <!-- Maps -->
+    <div id="map" class="map"></div>
+
+  <ion-card>
+      <ion-fab right top>
+        <button ion-fab style="margin-top: 40px">
+          <ion-icon name="pin"></ion-icon>
+        </button>
+      </ion-fab>
+    
+      <ion-item>
+        <ion-icon name="pie" item-start large></ion-icon>
+        <h2 style="color: maroon">Total Produksi /wilayah</h2>
+      </ion-item>
+    
+      <ion-item>
+        <ion-icon name="clipboard" item-start large ></ion-icon>
+        <h2 style="color: maroon">Jenis Produksi /wilayah</h2>
+      </ion-item>
+    
+      <ion-item>
+        <span item-start style="color: red">18 min</span>
+        <span item-start>(ago)</span>
+        <button ion-button icon-start clear item-end>
+          <ion-icon name="refresh"></ion-icon>
+          refresh
+        </button>
+      </ion-item>
+    
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,35 @@
+page-home {
+    .map {
+        width: 100%; 
+        height: 100%;
+        opacity: 0.9;
+        position: relative;
+    }
+
+    ion-card {
+        background-color: slategray !important;
+    }
+
+    .bg-style {
+        background-color: gainsboro;
+    }
+
+    .card-ios {
+        opacity: 0.8;
+        margin: 1px;
+        margin-top: -145px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        width: unset;
+    }
+    .card-md {
+        opacity: 0.8;
+        margin: 1px;
+        margin-top: -145px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        width: unset;
+    }
+}
